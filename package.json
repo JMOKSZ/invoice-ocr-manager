@@ -1,0 +1,39 @@
+{
+  "name": "invoice-ocr-manager",
+  "version": "1.0.0",
+  "description": "基于OCR的智能发票管理工具，自动识别和记录发票信息",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "ocr",
+    "invoice",
+    "management",
+    "finance",
+    "paddleocr"
+  ],
+  "author": "JMOKSZ",
+  "license": "MIT",
+  "dependencies": {
+    "paddlejs": "^1.0.0",
+    "opencv4nodejs": "^6.5.0",
+    "sharp": "^0.32.6",
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.0",
+    "cheerio": "^1.0.0-rc.12",
+    "moment": "^2.29.4",
+    "xlsx": "^0.18.5",
+    "sqlite3": "^5.1.6",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "electron": "^28.0.0"
+  }
+}
